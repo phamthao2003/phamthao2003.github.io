@@ -1,0 +1,71 @@
+/* Thiết lập font chữ và đặt giá trị margin và padding mặc định cho toàn bộ trang */
+body {
+  font-family: Arial, sans-serif; /* Sử dụng font chữ Arial hoặc font sans-serif nếu Arial không khả dụng */
+  margin: 0; /* Loại bỏ margin mặc định của trang */
+  padding: 0; /* Loại bỏ padding mặc định của trang */
+}
+
+/* Phần Header */
+header {
+  background-color: lightyellow; /* Đặt màu nền của phần Header là màu vàng nhạt */
+  text-align: center; /* Căn giữa nội dung văn bản trong Header */
+  padding: 10px; /* Khoảng cách padding xung quanh nội dung trong Header */
+  padding-left: 150px; /* Khoảng cách padding bên trái của Header */
+  display: flex; /* Sử dụng hiển thị flex để căn chỉnh các phần tử con */
+  align-items: center; /* Căn chỉnh các phần tử con theo chiều dọc (để căn giữa hình ảnh và nội dung) */
+  margin-bottom: 30px; /* Khoảng cách margin dưới của Header */
+}
+
+/* Phần tiêu đề trong Header */
+header p {
+  color: red; /* Đặt màu văn bản của phần tiêu đề là đỏ */
+}
+
+/* Phần nội dung trong Header */
+.header-content {
+  text-align: left; /* Căn trái nội dung trong Header */
+  margin-right: 20px; /* Khoảng cách margin bên phải của phần nội dung */
+}
+
+.header-content h1 {
+  margin: 0; /* Loại bỏ margin mặc định của tiêu đề h1 */
+}
+
+/* Hình ảnh trong Header */
+header img {
+  width: 150px; /* Đặt chiều rộng của hình ảnh là 150px */
+  height: 150px; /* Đặt chiều cao của hình ảnh là 150px */
+  border-radius: 50%; /* Làm tròn góc hình ảnh để tạo hình tròn */
+  object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng và nằm đúng tỷ lệ */
+  margin-right: 20px; /* Khoảng cách margin bên phải của hình ảnh */
+}
+
+/* Phần Logo */
+.logo img {
+  width: 200px; /* Đặt chiều rộng của hình ảnh logo là 200px */
+  height: 200px; /* Đặt chiều cao của hình ảnh logo là 200px */
+  border-radius: 50%; /* Làm tròn góc hình ảnh logo để tạo hình tròn */
+}
+
+/* Phần Main Content */
+main .row {
+  border-bottom: 2px solid red; /* Tạo đường viền dưới của mỗi hàng trong Main Content */
+  margin-bottom: 20px; /* Khoảng cách margin dưới của mỗi hàng */
+  height: 200px; /* Đặt chiều cao của mỗi hàng là 200px */
+}
+
+/* Tiêu đề trong Main Content */
+main h2 {
+  color: red; /* Đặt màu của tiêu đề h2 là đỏ */
+}
+
+/* Văn bản trong Main Content */
+main p {
+  font-style: italic; /* Chữ in nghiêng (chữ nghiêng) cho văn bản trong Main Content */
+}
+
+/* Phần Footer */
+footer {
+  background-color: lightyellow; /* Đặt màu nền của phần Footer là màu vàng nhạt */
+  height: 200px; /* Đặt chiều cao của phần Footer là 200px */
+}
